@@ -1,1 +1,8 @@
-
+name: catdog_segmentation_model
+url: https://github.com/pwochner/catdog_segmentation_model
+import: catdog_segmentation_model
+model: CatDogUNet
+prediction_fn:
+    call: predict
+    args:
+        X: image
