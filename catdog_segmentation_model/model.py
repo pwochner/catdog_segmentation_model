@@ -33,7 +33,3 @@ class CatDogUNet:
         # make prediction
         prediction = self.model(image)
         return prediction
-
-
-#  -------------
-# - We need to return an image with class labels
